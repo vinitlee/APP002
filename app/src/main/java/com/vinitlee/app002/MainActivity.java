@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             ncomp.setContentTitle("**TITLE**");
             ncomp.setContentText("**TEXT**");
             ncomp.setTicker("**TICKER**");
+            ncomp.setSubText("**SUBTEXT**");
             ncomp.setSmallIcon(R.drawable.ic_launcher);
             ncomp.setAutoCancel(true);
             nManager.notify((int)System.currentTimeMillis(),ncomp.build());
